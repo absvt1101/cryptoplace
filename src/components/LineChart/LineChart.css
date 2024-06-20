@@ -1,0 +1,22 @@
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px; /* Adjust height as needed */
+  }
+  
+  .left-div,
+  .right-div {
+    width: 100px; /* Adjust width as needed */
+    height: 100%;
+    /* Style left and right divs as per your design */
+  }
+  
+  .center-div {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items:flex-end;
+  }
+  
